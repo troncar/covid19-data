@@ -1,0 +1,15 @@
+.blockTerritory {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // Blocks 
+    &__terrytory {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    &__count {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}

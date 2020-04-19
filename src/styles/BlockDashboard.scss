@@ -1,0 +1,37 @@
+//Main Styles Dashboard General
+.dashBoard {
+    margin-top: 1rem;
+    padding: .5rem;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    border: .1rem solid #EAF2F8;
+    border-radius: .2rem;
+
+    //Block Dashboard
+
+    &__town, &__sickness {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:  #EAF2F8;
+        border-radius: .2rem;
+    }
+
+    &__hospital { 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color:  #D4E6F1;
+        border-radius: .2rem;
+    }
+
+
+    &__title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        height: 10rem;
+        width: 12rem;
+        padding: .4rem;
+    }
+}

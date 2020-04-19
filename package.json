@@ -1,8 +1,9 @@
 {
-  "name": "covid-data",
+  "name": "covid19-data",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/api": "^0.61.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
