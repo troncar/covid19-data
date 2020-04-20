@@ -17,18 +17,19 @@ const BlockTowns = (props) => {
             <div className="blockTowns__block">
                 <ResponsivePie
                     data={dataTowns}
-                    margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
+                    margin={{ top: 10, right: 20, bottom: 80, left: 20 }}
                     innerRadius={0.5}
                     padAngle={0.7}
                     cornerRadius={3}
                     colors={{ scheme: 'spectral' }}
                     borderWidth={1}
                     borderColor={{ from: 'color', modifiers: [ [ 'darker', 0.2 ] ] }}
+                    enableRadialLabels={false}
                     radialLabelsSkipAngle={10}
                     radialLabelsTextXOffset={6}
                     radialLabelsTextColor="#333333"
                     radialLabelsLinkOffset={0}
-                    radialLabelsLinkDiagonalLength={16}
+                    radialLabelsLinkDiagonalLength={10}
                     radialLabelsLinkHorizontalLength={24}
                     radialLabelsLinkStrokeWidth={1}
                     radialLabelsLinkColor={{ from: 'color' }}
