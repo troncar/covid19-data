@@ -14,24 +14,51 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
         background-color:  #EAF2F8;
         border-radius: .2rem;
+
+        @media only screen and (min-width: 992px) {
+            flex-direction: row;
+            justify-content: center;
+            flex-direction: column;
+        }
     }
 
     &__hospital { 
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
+        justify-items: center;
         background-color:  #D4E6F1;
         border-radius: .2rem;
+        flex-direction: column;
+
+        @media only screen and (min-width: 992px) {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
     }
 
 
     &__title {
         font-size: 1.2rem;
         font-weight: 600;
-        height: 10rem;
-        width: 12rem;
-        padding: .4rem;
+        height: 1rem;
+        padding: .5rem;
+        text-align: center;
+        width: 100%;
+
+        @media only screen and (min-width: 992px) {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            height: 10rem;
+            width: 12rem;
+        }
     }
 }
