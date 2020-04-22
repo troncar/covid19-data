@@ -19,10 +19,6 @@ const BlockSickness = (props) => {
     })
 
     const root = {"name": "Pacientes con Enfermedad Pre",children};
-
-    console.log(root);
-
-
       
     return (
         <div className="blockSickness">

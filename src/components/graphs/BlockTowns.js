@@ -24,7 +24,7 @@ const BlockTowns = (props) => {
                     colors={{ scheme: 'spectral' }}
                     borderWidth={1}
                     borderColor={{ from: 'color', modifiers: [ [ 'darker', 0.2 ] ] }}
-                    enableRadialLabels={false}
+                    enableRadialLabels={props.breakpoint === 'sm' ? false : true}
                     radialLabelsSkipAngle={10}
                     radialLabelsTextXOffset={6}
                     radialLabelsTextColor="#333333"
